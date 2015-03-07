@@ -9,7 +9,7 @@ php:
 
 before_script:
     - composer self-update
-    - composer install --dev
+    - composer install
     - wget -O tests/ibantool_java.jar "http://www.six-interbank-clearing.com/dam/downloads/en/standardization/iban/tool/ibantool_java.jar"
 
 script:
