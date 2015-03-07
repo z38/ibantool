@@ -1,0 +1,31 @@
+{
+    "name": "z38/ibantool",
+    "description": "Wrapper for the SIX IBAN-Tool",
+    "type": "library",
+    "keywords": [
+        "iban",
+        "iban-tool",
+        "six"
+    ],
+    "homepage": "https://github.com/z38/ibantool",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "z38",
+            "homepage": "https://github.com/z38"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Z38\\IbanTool\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Z38\\IbanTool\\Tests\\": "tests/"
+        }
+    }
+}
