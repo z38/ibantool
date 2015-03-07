@@ -16,9 +16,9 @@ $tool = new IbanTool([
     'ibantool_jar' => __DIR__.'/ibantool_java.jar' // download JAR from the official website
 ]);
 
-$tool->convert('80-151-4', '3525-8.888766.2'); // returns 
+$tool->convert('709', '1109-0629613'); // returns CH0500700110900629613
 
-$tool->convertPostal('80-470-3'); // returns 
+$tool->convertPostal('80-470-3'); // returns CH1809000000800004703
 ```
 
 Further Resources
