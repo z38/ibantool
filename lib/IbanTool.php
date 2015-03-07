@@ -2,6 +2,9 @@
 
 namespace Z38\IbanTool;
 
+use Z38\IbanTool\Exception\RuntimeException;
+use Z38\IbanTool\Exception\ValidationException;
+
 /**
  * IbanTool
  */
